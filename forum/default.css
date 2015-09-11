@@ -1,0 +1,405 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #E5E5E5;
+	font-family: Verdana, Arial, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-size: 13px;
+	color: #666666;
+}
+
+blockquote {
+	font-family: Verdana, Arial, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+a {
+	color: #135293;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.title1 {
+	margin: 0;
+	padding: 10px 0;
+	background: url(images/img07.gif) repeat-x left bottom;
+	font-weight: normal;
+	font-size: 129%;
+	color: #FFFFFF;
+}
+
+.title2 {
+	margin: 0;
+	padding: 10px 0;
+	background: url(images/img09.gif) repeat-x left bottom;
+	font-size: 227%;
+	font-weight: normal;
+	color: #135293;
+}
+
+.title3 {
+	margin: 0;
+	padding: 10px 0;
+	background: url(images/img11.gif) repeat-x left bottom;
+	font-size: 129%;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.titlebar {
+        padding: 5px 0px 0px 0px;
+}
+
+.boxed {
+	padding: 5px 20px 5px 20px;
+}
+
+.boxed p, .boxed ul, .boxed ol {
+	line-height: 180%;
+}
+
+.orange {
+	margin: 20px 30px;
+	background: #FF9523 url(images/img10.gif) repeat-x;
+	color: #FFFFFF;
+}
+
+.orange a {
+	color: #FFFFFF;
+}
+
+.col-one {
+	float: left;
+	width: 300px;
+}
+
+.col-two {
+	float: right;
+	width: 300px;
+}
+
+/* Page */
+
+#page {
+	width: 980px;
+	margin: 0 auto;
+	background: #FFFFFF url(images/img01.gif) repeat-y;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 220px;
+}
+
+/* Logo */
+
+#logo {
+	height: 120px;
+	background: #FFFFFF;
+}
+
+#logo h1, #logo h2 {
+	margin: 0;
+	text-transform: lowercase;
+	text-align: center;
+	font-weight: normal;
+	font-style: italic;
+	color: #9C9C9C;
+}
+
+#logo h1 {
+	padding: 82px 0 0 0;
+	background: url(images/logo.png) no-repeat center center;
+	font-size: 36px;
+}
+
+#logo h2 {
+        padding: 33px 0 0 0;
+        background: url(images/logo2.png) no-repeat center center;
+}
+
+#logo a {
+	color: #9C9C9C;
+	text-decoration: none;
+}
+
+/* Menu */
+
+#menu {
+	padding: 8px;
+	background: ;
+	margin: 0 0 20px 0;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li{
+	list-style-type:none;
+	width:204px;
+	height:40px;
+	margin:0 0 2px 0px; 
+}
+
+#menu a{
+	display:block;
+	height:100%;
+	text-indent:-9999px;
+}
+
+#menu a:focus{
+/*\*/
+	overflow: hidden;
+/**/
+}
+
+#menu li.menu_button1{
+	background:url(images/menu01.png);
+}
+#menu li.menu_button1 a{
+	background:url(images/menu01_a.png);
+}
+
+#menu li.menu_button2{
+	background:url(images/menu02.png);
+}
+#menu li.menu_button2 a{
+	background:url(images/menu02_a.png);
+}
+
+#menu li.menu_button3{
+	background:url(images/menu03.png);
+}
+#menu li.menu_button3 a{
+	background:url(images/menu03_a.png);
+}
+
+#menu li.menu_button4{
+	background:url(images/menu04.png);
+}
+#menu li.menu_button4 a{
+	background:url(images/menu04_a.png);
+}
+
+#menu li.menu_button5{
+	background:url(images/menu05.png);
+}
+#menu li.menu_button5 a{
+	background:url(images/menu05_a.png);
+}
+
+#menu li.menu_button6{
+	background:url(images/menu06.png);
+}
+#menu li.menu_button6 a{
+	background:url(images/menu06_a.png);
+}
+
+#menu li.menu_button7{
+	background:url(images/menu07.png);
+}
+#menu li.menu_button7 a{
+	background:url(images/menu07_a.png);
+}
+
+#menu li.menu_button8{
+	background:url(images/menu08.png);
+}
+#menu li.menu_button8 a{
+	background:url(images/menu08_a.png);
+}
+
+#menu li.menu_button9{
+	background:url(images/menu09.png);
+}
+#menu li.menu_button9 a{
+	background:url(images/menu09_a.png);
+}
+
+#menu li.menu_button10{
+	background:url(images/menu10.png);
+}
+#menu li.menu_button10 a{
+	background:url(images/menu10_a.png);
+}
+
+#menu li.menu_button11{
+	background:url(images/menu11.png);
+}
+#menu li.menu_button11 a{
+	background:url(images/menu11_a.png);
+}
+
+#menu li.menu_button12{
+	background:url(images/menu12.png);
+}
+#menu li.menu_button12 a{
+	background:url(images/menu12_a.png);
+}
+
+#menu li.menu_button13{
+	background:url(images/menu13.png);
+}
+#menu li.menu_button13 a{
+	background:url(images/menu13_a.png);
+}
+
+#menu li.menu_button14{
+	background:url(images/menu14.png);
+}
+#menu li.menu_button14 a{
+	background:url(images/menu14_a.png);
+}
+
+#menu li.menu_button15{
+	background:url(images/menu15.png);
+}
+#menu li.menu_button15 a{
+	background:url(images/menu15_a.png);
+}
+
+#menu li.menu_button16{
+	background:url(images/menu16.png);
+}
+#menu li.menu_button16 a{
+	background:url(images/menu16_a.png);
+}
+
+#menu li.menu_button17{
+	background:url(images/menu17.png);
+}
+#menu li.menu_button17 a{
+	background:url(images/menu17_a.png);
+}
+
+#menu li.menu_button18{
+	background:url(images/menu18.png);
+}
+#menu li.menu_button18 a{
+	background:url(images/menu18_a.png);
+}
+
+#menu li.menu_button19{
+	background:url(images/menu19.png);
+}
+#menu li.menu_button19 a{
+	background:url(images/menu19_a.png);
+}
+
+#menu li a:hover{
+	background:none !important;
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 760px;
+}
+
+#top_image {
+	width: 760px;
+	height: 120px;
+	background: url(images/top_title.png);
+}
+
+/* Footer */
+
+#footer {
+	width: 980px;
+	height: 80px;
+	margin: 0 auto;
+	background: #d2e5bf;
+}
+
+#footer p {
+	margin: 0;
+	
+}
+
+#links {
+	float: left;
+	width: 200px;
+	height: 45px;
+	padding: 35px 0 0 20px;
+	background: url(images/img13.gif) repeat-x;
+}
+
+#links a {
+	color: #FFFFFF;
+}
+
+#legal {
+	float: right;
+        font-size: 94%;
+	padding: 5px 20px 0 0;
+	color: #000000;
+}
+
+#copyright {
+	float: left;
+        font-size: 85%;
+	padding: 60px 0 0 10px;
+	color: #000000;
+}
+
+/* news */
+#news{
+    width:720px;
+    height:194px;
+    overflow:auto;
+}
+ 
+#news dt{
+    clear:left;
+    float:left;
+    margin:0;
+    padding:5px 0 5px 0.5em;
+    width:7em;
+    line-height:1em;
+}
+ 
+#news dd{
+    margin:0;
+    padding:5px 0em 5px 7em;
+    border-bottom:1px solid #CCC;
+    line-height:1em;
+}
+ 
+#news a{
+
+    color:#399CCD;
+    text-decoration:none;
+}
+ 
+#news a:hover{
+text-decoration:underline;
+	color: #cd6a39;
+}
+
+/* ---------------------
+ * FONTSIZE MODEL * 
+ * ---------------------
+ *  63% ->	10pxに相当
+ *  70% ->	11pxに相当
+ *  75% ->	12pxに相当
+ *  82% ->	13pxに相当
+ *  88% ->	14pxに相当
+ *  94% ->	15pxに相当
+ * 100% ->	16pxに相当
+ * 107% ->	17pxに相当
+ * 113% ->	18pxに相当
+ * 119% ->	19pxに相当
+ * 125% ->	20pxに相当
+ * --------------------- */

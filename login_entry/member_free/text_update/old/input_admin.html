@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<title>TransmitMail サンプル</title>
+<!--<meta name="keywords" content="" />
+<meta name="description" content="" />-->
+<meta name="copyright" content="Copyright (c) dounokouno. All rights reserved." />
+<!--<link rel="stylesheet" type="text/css" href="css/screen.css" media="screen,print" />-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.zip2addr.js"></script>
+<link rel="stylesheet" href="../../../css/styles-site.css" type="text/css" />
+</head>
+<body class="home">
+
+<div id="container"><!--"container"を削除するとデザインが崩れます-->
+
+<!--ヘッダーここから-->
+<h1>ホームページ テンプレート #001_blue 見出しタグ&lt;h1&gt;を使用</h1>
+<div id="header"><img src="../../../images/rogo.png" width="257" height="100" /></div>
+<!--ヘッダーここまで-->
+
+<!--ヘッダーメニューここから-->
+<div id="menu">
+<ul>
+<li class="home"><a href="#1">TOP</a></li>
+<li><a href="#2">MAIL</a></li>
+<li><a href="#3">LINKS</a></li>
+<li><a href="#4">メニューはテキストの変更、数の増減が可能です</a></li>
+</ul>
+</div>
+<!--ヘッダーメニューここまで-->
+
+<!--メインここから-->
+<div id="main">
+
+<!--<img src="images/648.gif" width="648" height="300" />-->
+
+<!--パンくずリストここから-->
+<div class="pan"><a href="../index.php">トップ</a></div>
+<!--パンくずリストここまで-->
+
+<div class="category">
+<h2>タイトル</h2>
+<div class="entry_body">
+
+<!--form-->
+<div id="content">
+	<div class="container">
+
+		<!-- mailform -->
+		<div class="section">
+				<p>以下のフォームに入力され、ページ下部の確認ボタンを押してください。</p>
+			{if:$global_error_flag}
+			<p><em>入力内容に誤りがあります。</em></p>
+			<ul><font color="red">
+				{loop:$global_error}
+				<li><em>{$global_error[]}</em></li>
+				{/loop:$global_error}
+			</font></ul>
+			{/if:$global_error_flag}
+			<form method="post" action="index.php?LoginId={$_GET.LoginId}&email={$_GET.email}">
+				<div class="section">
+					<center>
+					<table width="100%">
+						<tr>
+							<th width="40%">お名前 [入力必須]</th>
+							<td>
+								<input type="text" name="お名前" value=" {$_GET.LoginId} " class="middle" />
+								<input type="hidden" name="required[]" value="お名前" />
+								{if:$required.入力必須}
+								<div class="error"><em>{$required.入力必須}</em></div>
+								{/if:$required.入力必須}
+							</td>
+						</tr>
+						<tr>
+							<th>メールアドレス [入力必須]</th>
+							<td>
+								<input type="text" name="メールアドレス" value="{$_GET.email}" class="middle" />
+								<input type="hidden" name="required[]" value="メールアドレス" />
+								{if:$required.入力必須}
+								<div class="error"><em>{$required.入力必須}</em></div>
+								{/if:$required.入力必須}
+							</td>
+						</tr>
+						<tr>
+							<th>郵便番号</th>
+							<td>
+								<input type="text" name="郵便番号" value="{$郵便番号}" class="middle" id="zip" size="8"/>
+							</td>
+						</tr>
+						<tr>
+							<th>住所</th>
+							<td>
+								<input type="text" name="住所" value="{$住所}" class="middle"  id="addr" size="40" />
+							</td>
+						</tr>
+						<tr>
+							<th>シングルラインインプット</th>
+							<td>
+								<input type="text" name="シングルラインインプット" value="{$シングルラインインプット}" class="middle" />
+							</td>
+						</tr>
+						<tr>
+							<th>ラジオボタン</th>
+							<td>
+								<input type="radio" name="ラジオボタン" value="項目1" id="radio1" {$checked.ラジオボタン.項目1} {$checked.default} />
+								<label for="radio1">項目1</label>
+								&nbsp;
+								<input type="radio" name="ラジオボタン" value="項目2" id="radio2" {$checked.ラジオボタン.項目2} />
+								<label for="radio2">項目2</label>
+								&nbsp;
+								<input type="radio" name="ラジオボタン" value="項目3" id="radio3" {$checked.ラジオボタン.項目3} />
+								<label for="radio3">項目3</label>
+							</td>
+						</tr>
+						<tr>
+							<th>チェックボックス</th>
+							<td>
+								<input type="checkbox" name="チェックボックス[]" value="項目1" id="checkbox1" {$checked.チェックボックス.項目1} {$checked.default} />
+								<label for="checkbox1">項目1</label><br />
+								<input type="checkbox" name="チェックボックス[]" value="項目2" id="checkbox2" {$checked.チェックボックス.項目2} />
+								<label for="checkbox2">項目2</label><br />
+								<input type="checkbox" name="チェックボックス[]" value="項目3" id="checkbox3" {$checked.チェックボックス.項目3} />
+								<label for="checkbox3">項目3</label>
+							</td>
+						</tr>
+						<tr>
+							<th>セレクトメニュー</th>
+							<td>
+								<select name="セレクトメニュー">
+									<option value="項目1" {$selected.セレクトメニュー.項目1}>項目1</option>
+									<option value="項目2" {$selected.セレクトメニュー.項目2}>項目2</option>
+									<option value="項目3" {$selected.セレクトメニュー.項目3}>項目3</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+					</center>
+				</div>
+<script>
+$('#zip').zip2addr('#addr')
+</script>
+				<center>
+				<div><input type="submit" value="入力内容を確認する" /></div>
+				</center>
+			</form>
+			<br />
+		</div>
+		<!-- /mailform -->
+	</div>
+</div>
+<!--form-->
+
+</div>
+</div>
+</div>
+<!--メインここまで-->
+
+<!--[if !IE]>サイドメニューここから<![endif]-->
+<div id="sub">
+<div class="category">
+<div class="entry_body">
+	
+<p>ようこそ！ {$_GET.LoginId} さん</p>
+<p><form>
+	<input type="button" value="ログアウト" onClick="location.href='../../logout.php'">
+</form></p>
+</div>
+</div>
+
+<div class="category">
+<h3><div class="h3kazari">メニューリスト</div></h3>
+<ul>
+<li><a href="index.php?LoginId={$_GET.LoginId}&email={$_GET.email}">登録フォーム</a></li>
+<li><a href="#4">カテゴリ002</a></li>
+<li><a href="#4">カテゴリ003</a></li>
+</ul>
+</div>
+
+<div class="category">
+<h3><div class="h3kazari">管理者メニュー</div></h3>
+<ul>
+<li><a href="../admin_user.php">ユーザ管理</a></li>
+<li><a href="../admin_news.php">新着情報管理</a></li>
+<li><a href="../admin_mail.php">メール通知管理</a></li>
+<li><a href="../admin_regi.php">登録受付管理</a></li>
+</ul>
+</div>
+
+</div>
+<!--[if !IE]>サイドメニューここまで<![endif]-->
+
+<div style="clear:both;"></div><!--デザインが崩れるので削除しない事-->
+
+<!--フッターここから-->
+<div id="footer">
+<p>Copyright(C) ホームページ名 All Rights Reserved.</p>
+</div>
+<!--フッターここまで-->
+
+</div><!--"container"-->
+
+</body>
+</html>

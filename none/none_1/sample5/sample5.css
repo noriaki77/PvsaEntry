@@ -1,0 +1,18 @@
+/* このスクリプトで使用されるセレクタ(ID)名は Loadouter,Loadinner,Loadmsg,inbody の4個。同じ名前を避けてください。 */
+#Loadouter {
+	position: absolute;
+	width:95%;
+	z-index: 100;
+	text-align:center;			/* ページに対しての表示枠のセンタリング DOCTYPE、ブラウザによる */
+}
+#Loadinner {
+	margin:auto;				/* ページに対しての表示枠のセンタリング DOCTYPE、ブラウザによる */
+	border:0px solid #aaaaaa;	/* 表示枠のボーダー設定(自由に変更) */
+	width:200px;				/* 表示枠の幅 */
+	height:40px;				/* 表示枠の高さ */
+}
+#Loadmsg {
+	color:#9999cc;				/* 表示枠内の文字色 */
+	font-size: 13px;			/* 表示枠内の文字サイズ */
+	text-align:center;			/* テキストの位置 left center right */
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+
+
+<link rel="stylesheet" type="text/css" href="./sample5.css">
+<script language="javascript" src="./sample5.js"></script>
+<script language="javascript" src="./sample5ad.js">/*アドオンです*/</script>
+
+
+<title>アドオン サブスクリプト５</title>
+</head>
+<body style="font-size:13px;color:#999999;">
+<p><a href="http://www.artemis.ac/contents/javascript/jscopy14.htm" style="color:#cc0000;">ARTEMIS</a></p>
+
+<div id="inbody">
+<div style="width:400px;">
+アドオンを使う場合は設定１を<br>
+<span style="color:#cc0000">Inn:''</span><br>
+のように空にします。<br>
+<p>
+このアドオンのサブスクリプトは画像や固定文字を表示する場所に、
+文字や画像をBlink表示します。
+</p>
+<p>
+IEがBlinkをサポートしてないのでスクリプトによるBlinkです。
+</p>
+
+<p>
+<div style="border:1px solid;">
+&lt;link rel="stylesheet" type="text/css" href="./sample5.css"&gt;<br>
+&lt;script type="text/javascript" src="./sample5.js"&gt;&lt;/script&gt;<br>
+&lt;script type="text/javascript" src="./sample5ad.js"&gt;&lt;/script&gt;<br>
+</div>
+</p>
+
+■複数ページで共通ファイルを使いながらアドオンスクリプトの部分設定を変更するには、
+アドオンスクリプトの最後の<br>
+<span style="color:#cc0000">Cset.addon.set(Cset.addon);</span>を外して。
+<div style="border:1px solid;">
+&lt;link rel="stylesheet" type="text/css" href="./sample5.css"&gt;<br>
+&lt;script type="text/javascript" src="./sample5.js"&gt;&lt;/script&gt;<br>
+&lt;script type="text/javascript" src="./sample5ad.js"&gt;&lt;/script&gt;<br>
+&lt;script type="text/javascript"&gt;<br>
+<span style="color:#cc0000">
+Cset.addon.delay = 300;<br>
+Cset.addon.set(Cset.addon);</span><br>
+&lt;/script&gt;<br>
+</div>
+の様に、Cset.addon の下のプロパティ名(設定項目名)を上書きする形で書きこみ、
+最後に<span style="color:#cc0000">Cset.addon.set(Cset.addon);</span>を書きこみます。<br>
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+</body>
+</html>

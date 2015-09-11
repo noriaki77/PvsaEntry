@@ -1,0 +1,55 @@
+/* ----------------------------------------------------------------------------------------------------------
+
+    This website template was downloaded from http://www.nuviotemplates.com - visit us for more templates
+
+---------------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------------------
+HTML
+---------------------------------------------------------------------------------------------------------- */
+
+body {background:#FFF; color:#000;}
+
+a {border-bottom:1px solid #DFDFDF; color:#000;}
+a:hover {border-bottom:1px solid #DFDFDF; color:#4089F2;}
+
+fieldset {border:1px solid #DFDFDF;}
+legend {background:#FFF; color:#4089F2;}
+
+.low, .low a {color:#7F7F7F;}
+.low a:hover {color:#000;}
+
+/* ----------------------------------------------------------------------------------------------------------
+Layout
+---------------------------------------------------------------------------------------------------------- */
+
+#logo {color:#000;}
+        
+#slogan {color:#7F7F7F;}
+
+#nav {border:1px solid #CCC;}
+#nav ul li#nav-active a { color:#555; border-bottom:3px solid #0096FF; text-decoration:none; }
+#nav a:hover { color:#555; border-bottom:3px solid #0096FF; text-decoration:none; }
+
+#nav_top {border:0px solid #CCC; color:#5F5F5F;}
+#nav_top ul li#nav_top-active a { color:#555; text-decoration:none; }
+#nav_top a:hover { color:#555; text-decoration:none; }
+
+#footer {border-top:0px solid #DFDFDF; color:#5F5F5F;}
+#footer a {color:#5F5F5F;}
+#footer a:hover {color:#000;}
+
+#nav_bottom {border-top:3px solid #0096FF; color:#5F5F5F;}
+#nav_bottom ul li#nav_top-active a { color:#555; text-decoration:none; }
+#nav_bottom a:hover { color:#555; text-decoration:none; }
+
+
+
+/* ----------------------------------------------------------------------------------------------------------
+Others
+---------------------------------------------------------------------------------------------------------- */
+
+.hx-style01 span {background:#FFF; color:#4089F2;}
+
+a.ico-more {background:#F5F5F5; color:#5F5F5F;}
+a:hover.ico-more {background:#4089F2; color:#FFF;}

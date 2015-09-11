@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.mat {
+	border: solid #2E2E2E 1px;
+	border-top: none;
+	border-left: none;
+	padding: .5em;
+	height: auto;
+	background: #EEE;
+}
+
+	.mat a {
+		padding: 0 .3em;
+		line-height: 1.8;
+	}
+	
+	.mat a.heading {
+		font-weight: bold;
+	}
+	
+	.mat a:hover {
+		color: #FAFAFA;
+		background: #0063E8;
+	}
+	
+	.month a {
+		padding: 0 .4em;
+	}
+	
+	.day a {
+		display: inline-block;
+		width: 1.2em;
+	}

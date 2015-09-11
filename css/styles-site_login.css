@@ -1,0 +1,459 @@
+/* body ボディ
+-----------------------------------------------------*/
+
+body {
+font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","Meiryo","Arial","Verdana","ＭＳ Ｐゴシック",sans-serif;
+font-size:80%;
+line-height: 140%;
+color: #333333;
+text-align: center;
+background: #f4f4f4;
+margin: 0px auto;
+padding: 0px;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/* container コンテナ
+-----------------------------------------------------*/
+
+#container {
+width:900px;
+margin: 0px auto;
+text-align: left;
+border-left: #999999 solid 1px;
+border-right: #999999 solid 1px;
+background:#ffffff;
+}
+
+/* header ヘッダー
+-----------------------------------------------------*/
+
+#header {
+height:100px;
+background:#FFFFFF;
+background-image:url(../images/back_tel.png);
+background-repeat:no-repeat;
+padding: 0px 0px 0px 10px;
+}
+
+h1 {
+font-size:10px;
+font-weight:normal;
+color: #FFFFFF;
+text-align:left;
+background:#3380CC;
+margin: 0px 0px 0px 0px;
+padding: 3px 5px 3px 10px;
+}
+
+#header .description {
+font-size:12px;
+font-weight:bold;
+margin: 0px 0px 3px 0px;
+padding: 10px 0px 0px 0px;
+}
+
+#header a:link {
+color: #333333;
+text-decoration: none;
+}
+
+#header a:visited {
+color: #333333;
+text-decoration: none;
+}
+
+#header a:active {
+color: #333333;
+text-decoration: none;
+}
+
+#header a:hover {
+color: #333333;
+text-decoration: none;
+}
+
+/* menu メニュー
+-----------------------------------------------------*/
+
+#menu {
+background:#3380CC;
+height:28px;
+font-size:12px;
+}
+
+#menu ul {
+list-style:none;
+display:block;
+margin: 0px 0px 0px 0px;
+padding: 0px;
+}
+
+#menu li {
+list-style:none;
+float:left;
+text-align:center;
+border-right:solid #FFFFFF 1px;
+margin: 0px 0px 0px 0px;
+}
+
+#menu a, #menu a:link, #menu a:visited {
+color: #FFFFFF;
+text-decoration: none;
+padding: 5px 20px 5px 20px;
+display:block;
+}
+
+#menu a:hover {
+color: #105EA0;
+background:#8CC7F9;
+text-decoration: none;
+padding: 5px 20px 5px 20px;
+}
+
+/* pan パンくずリスト
+-----------------------------------------------------*/
+
+.pan {
+font-size:10px;
+padding: 10px 20px 0px 20px;
+}
+
+/* main メイン
+-----------------------------------------------------*/
+
+#main {
+float:right;
+width:648px;
+background: #FFFFFF;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#main .category {
+width:648px;
+margin: 0px 0px 15px 0px;
+}
+
+#main h2 {
+font-size:120%;
+color:#666666;
+font-weight:bold;
+margin: 10px 10px 10px 10px;
+}
+
+#main h3 {
+color:#FFFFFF;
+font-size:105%;
+background:#3380CC;
+border-left:#333333 solid 6px;
+padding: 5px 10px 5px 5px;
+margin: 0px;
+}
+
+#main h4 {
+padding:3px 5px;
+border-color:#1a92ac;
+border-width:0 0 1px 4px;
+border-style:solid;
+background:#ffffff;
+font-weight:normal;
+}
+
+#main .entry_body {
+margin: 15px 24px 15px 24px;
+padding: 0px 0px 0px 0px;
+}
+
+#main p {
+margin: 10px 10px 20px 10px;
+padding: 0px 0px 0px 0px;
+}
+
+#main blockquote {
+margin: 20px 10px 20px 10px;
+padding: 10px 10px 10px 10px;
+border:#999999 dotted 1px;
+background: #FFFFFF;
+}
+
+#main ul {
+margin: 0px 30px 0px 28px;
+padding: 0px 0px 10px 0px;
+}
+
+#main ol {
+margin: 0px 30px 0px 35px;
+padding: 0px 0px 10px 0px;
+}
+
+#main li {
+line-height: 140%;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 5px 0px;
+}
+
+#main .red {
+color:#CC0000;
+font-weight:bold;
+}
+
+/* main table メインのテーブル
+-----------------------------------------------------*/
+
+
+
+/* box ボックス
+-----------------------------------------------------*/
+
+#main .box1 {
+width:576px;
+height:auto;
+border:solid #999999 1px;
+margin: 0px 6px 12px 6px;
+padding: 5px 5px 5px 5px;
+}
+
+#main .box2 {
+float: left;
+width:276px;
+height:165px;
+border:solid #999999 1px;
+margin: 0px 6px 12px 6px;
+_margin: 0px 3px 12px 3px;
+padding: 5px 5px 5px 5px;
+}
+
+#main .box3 {
+float: left;
+width:176px;
+height:170px;
+border:solid #999999 1px;
+margin: 0px 6px 12px 6px;
+_margin: 0px 3px 12px 3px;
+padding: 5px 5px 5px 5px;
+}
+
+#main .box-img-left {
+float:left;
+display: inline;
+margin: 10px 5px 5px 5px;
+border:solid #999999 1px;
+}
+
+#main .box-img-left3 {
+margin: 10px 5px 5px 5px;
+border:solid #999999 1px;
+}
+
+#main .box-btn {
+float:right;
+display: inline;
+font-size:11px;
+font-weight:bold;
+color: #105EA0;
+background:#8CC7F9;
+border: #3380CC solid 1px;
+width:164px;
+text-align:center;
+padding: 0px 0px 0px 0px;
+margin: 5px 5px 5px 5px;
+_margin: 5px 5px 5px 5px;
+}
+
+#main .box-btn3 {
+font-size:11px;
+font-weight:bold;
+color: #105EA0;
+background:#8CC7F9;
+border: #3380CC solid 1px;
+width:164px;
+text-align:center;
+padding: 0px 0px 0px 0px;
+margin: 5px 5px 5px 5px;
+}
+
+#main .box-btn a, #main .box-btn a:link, #main .box-btn a:visited {
+color: #105EA0;
+text-decoration:none;
+display:block;
+padding: 2px 0px 0px 0px;
+}
+
+#main .box-btn a:hover {
+color: #105EA0;
+background:#D9E6F3;
+text-decoration: none;
+padding: 2px 0px 0px 0px;
+}
+
+
+#main .box-btn3 a, #main .box-btn3 a:link, #main .box-btn3 a:visited {
+color: #105EA0;
+text-decoration:none;
+display:block;
+padding: 2px 0px 0px 0px;
+}
+
+#main .box-btn3 a:hover {
+color: #105EA0;
+background:#D9E6F3;
+text-decoration: none;
+padding: 2px 0px 0px 0px;
+}
+
+#main .clear {
+clear:both;
+visibility:hidden;
+height: 0;
+padding: 0;
+margin: 0;
+}
+
+/* new 更新情報
+-----------------------------------------------------*/
+
+#main .new {
+height: 150px;
+overflow: auto;
+margin-right: auto;
+margin-left: auto;
+}
+
+#main .new li {
+border-bottom:#CCCCCC dotted 2px;
+margin: 5px 0px 5px 0px;
+padding: 5px 0px 10px 0px;
+}
+
+/* sub サブ
+-----------------------------------------------------*/
+
+#sub {
+float:left;
+font-size:12px;
+width:252px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+background-repeat: repeat-y;
+}
+
+#sub .category {
+margin: 10px 10px 10px 10px;
+padding: 0px 0px 0px 0px;
+border:#3380CC solid 1px;
+background:#D9E6F3;
+}
+
+#sub h3 {
+color:#FFFFFF;
+font-size:13px;
+text-align:center;
+font-weight:bold;
+margin: 0px 0px 0px 0px;
+padding: 5px 10px 5px 5px;
+}
+
+#sub .entry_body {
+margin: 0px 15px 0px 15px;
+padding: 0px 0px 0px 0px;
+}
+
+#sub p {
+margin: 15px 0px 15px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#sub blockquote {
+margin: 15px 0px 15px 0px;
+padding: 10px 10px 10px 10px;
+border:#999999 dotted 1px;
+background: #FFFFFF;
+}
+
+#sub .soto {
+margin: 0px 25px 0px 25px;
+}
+
+#sub ul {
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#sub li {
+line-height: 120%;
+list-style:none;
+_height:30px;
+background: url(../images/li.gif) no-repeat 18px 1.2em;
+border-top: #3380CC solid 1px;
+margin: 0px 0px 0px 0px;
+}
+
+#sub li a, #sub li a:link, #sub li a:visited {
+color:#333333;
+text-decoration:none;
+display:block;
+padding: 10px 10px 8px 25px;
+}
+
+#sub li a:hover {
+color: #105EA0;
+background:#8CC7F9;
+text-decoration: none;
+padding: 10px 10px 8px 25px;
+}
+
+/* footer フッター
+-----------------------------------------------------*/
+
+#footer {
+text-align:center;
+font-size:10px;
+background: #FFFFFF;
+margin: 0px 0px 0px 0px;
+padding: 5px 0px 5px 0px;
+border-top: #3380CC solid 28px;
+}
+
+#footer p {
+margin: 5px 25px 5px 25px;
+padding: 0px 0px 0px 0px;
+}
+
+/* heading2 
+-----------------------------------------------------*/
+
+#heading2{
+    background: #fff;
+    border-top:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:4px solid #1a92ac;
+    padding: 5px 0 5px 10px;
+    background: -moz-linear-gradient(top, #fff 0%, #eee 50%, #ddd 51%, #fff 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(50%,#eee), color-stop(51%,#ddd), color-stop(100%,#fff)); /* webkit */
+    -pie-background:linear-gradient(top, #fff 0%, #eee 50%, #ddd 51%, #fff 100%); /* ie */
+    behavior: url(images/PIE.htc);  /* ie */
+}
+
+/* gradient 
+-----------------------------------------------------*/
+/*------------blue------------*/
+#accordion_head {
+background: #25b3d1;
+background: -webkit-gradient(linear, left top, left bottom, from(#25b3d1), to(#1a92ac));/* webkit */
+background: -moz-linear-gradient(top,  #25b3d1,  #1a92ac);/* fx */
+/*------PIE setting-------*/
+-pie-background:linear-gradient(top,  #25b3d1,  #1a92ac);
+behavior: url(images/PIE.htc);
+/*------------------------*/
+border:solid 1px #FFFFFF;
+color:#FFFFFF;
+}

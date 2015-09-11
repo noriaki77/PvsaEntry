@@ -1,0 +1,963 @@
+/* body ボディ
+-----------------------------------------------------*/
+
+body {
+font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","Meiryo","Arial","Verdana","ＭＳ Ｐゴシック",sans-serif;
+font-size:80%;
+line-height: 140%;
+color: #333333;
+text-align: center;
+background-image: url(../images/003-009.gif);
+margin: 0px auto;
+padding: 0px;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/* container コンテナ
+-----------------------------------------------------*/
+
+#container {
+width:900px;
+margin: 0px auto;
+text-align: left;
+
+background:#ffffff;
+}
+
+/* header ヘッダー
+-----------------------------------------------------*/
+
+#header {
+height:169px;
+background:#FFFFFF;
+background-image:url(../images/back_tel.png);
+background-repeat:no-repeat;
+padding: 0px 0px 0px 10px;
+}
+
+h1 {
+font-size:10px;
+font-weight:normal;
+color: #FFFFFF;
+text-align:left;
+background:#0e3f6a;
+margin: 0px 0px 0px 0px;
+padding: 0px 5px 0px 10px;
+}
+
+#header .description {
+font-size:12px;
+font-weight:bold;
+margin: 0px 0px 3px 0px;
+padding: 10px 0px 0px 0px;
+}
+
+#header a:link {
+color: #333333;
+text-decoration: none;
+}
+
+#header a:visited {
+color: #333333;
+text-decoration: none;
+}
+
+#header a:active {
+color: #333333;
+text-decoration: none;
+}
+
+#header a:hover {
+color: #333333;
+text-decoration: none;
+}
+
+/* menu メニュー
+-----------------------------------------------------*/
+
+#menu {
+background:#3380CC;
+height:28px;
+font-size:12px;
+}
+
+#menu ul {
+list-style:none;
+display:block;
+margin: 0px 0px 0px 0px;
+padding: 0px;
+}
+
+#menu li {
+list-style:none;
+float:left;
+text-align:center;
+border-right:solid #FFFFFF 1px;
+margin: 0px 0px 0px 0px;
+}
+
+#menu a, #menu a:link, #menu a:visited {
+color: #FFFFFF;
+text-decoration: none;
+padding: 5px 20px 5px 20px;
+display:block;
+}
+
+#menu a:hover {
+color: #105EA0;
+background:#8CC7F9;
+text-decoration: none;
+padding: 5px 20px 5px 20px;
+}
+
+/* pan パンくずリスト
+-----------------------------------------------------*/
+
+.pan {
+font-size:85%;
+padding: 10px 0px 0px 0px;
+}
+
+/* main メイン
+-----------------------------------------------------*/
+
+#main {
+float:right;
+width:648px;
+background: #FFFFFF;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#main .category {
+width:648px;
+margin: 0px 0px 15px 0px;
+}
+
+#main h2 {
+font-size:120%;
+color:#666666;
+font-weight:bold;
+margin: 10px 10px 10px 10px;
+}
+
+#main h3 {
+color:#FFFFFF;
+font-size:105%;
+background:#3380CC;
+border-left:#333333 solid 6px;
+padding: 5px 10px 5px 5px;
+margin: 0px;
+}
+
+#main h4 {
+padding:3px 5px;
+border-color:#0081b2;
+border-width:0 0 1px 4px;
+border-style:solid;
+background:#ffffff;
+font-weight:normal;
+}
+
+#main .entry_body {
+margin: 15px 24px 15px 24px;
+padding: 0px 0px 0px 0px;
+}
+
+#main p {
+margin: 10px 10px 20px 10px;
+padding: 0px 0px 0px 0px;
+}
+
+#main blockquote {
+margin: 20px 10px 20px 10px;
+padding: 10px 10px 10px 10px;
+border:#999999 dotted 1px;
+background: #FFFFFF;
+}
+
+#main ul {
+margin: 0px 30px 0px 10px;
+padding: 0px 0px 10px 0px;
+}
+
+#main ol {
+margin: 0px 30px 0px 35px;
+padding: 0px 0px 10px 0px;
+}
+
+#main li {
+line-height: 140%;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 5px 0px;
+}
+
+#main .red {
+color:#CC0000;
+font-weight:bold;
+}
+
+#main .t1 {
+font-size:93%;
+}
+
+/* main table メインのテーブル
+-----------------------------------------------------*/
+
+#main table ul {
+margin: 5px 0px 5px 20px;
+padding: 0px 0px 0px 0px;
+}
+
+#main table {
+margin: 10px 0px 20px 0px;
+padding: 0px 0px 0px 0px;
+width:600px;
+border:solid #999999 1px;
+border-collapse:collapse;
+font-weight:normal;
+font-size:93%;
+}
+
+#main caption {
+margin: 0px 0px 10px 0px;
+font-size:110%;
+}
+
+#main th {
+padding: 7px 7px 7px 7px;
+text-align:left;
+border: solid 1px #8C8E8F;
+background: #E4F5FB;
+font-weight:normal;
+}
+
+#main td {
+padding: 5px 7px 5px 7px;
+border:solid #999999 1px;
+}
+
+/* main table.table2 メインのテーブル
+-----------------------------------------------------*/
+#main table.table2 {
+width: 320px;
+border-width: 0px 0px; /* 枠の幅 */
+padding-left:20px;
+margin: 0px 0px 0px 10px;
+	color: #606060;
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+
+#main table.table2 th {
+border-width: 0px 0px; /* 枠の幅 */
+}
+
+#main table.table2 td {
+border-width: 0px 0px; /* 枠の幅 */
+text-align: left;
+padding: 10px 0px 10px 0px;
+}
+
+/* main table.table3 メインのテーブル
+-----------------------------------------------------*/
+#main table.table3 {
+border-width: 0px 0px; /* 枠の幅 */
+}
+
+#main table.table3 th {
+border-width: 0px 0px; /* 枠の幅 */
+}
+
+#main table.table3 td {
+border-width: 0px 0px; /* 枠の幅 */
+}
+
+#main table.table3 td.tdtitle {
+border: 1px #cccccc solid;
+}
+
+#main table.table3 td.tdtitle2 {
+border: 1px #cccccc solid;
+}
+
+#main table.table3 td.tdexplain {
+border: 1px #cccccc solid;
+}
+
+/* main table.table4 メインのテーブル
+-----------------------------------------------------*/
+#main table.table4 {
+width: 460px;
+border-width: 0px 0px; /* 枠の幅 */
+padding-left:20px;
+margin: 0px 0px 0px 20px;
+}
+
+#main table.table4 th {
+border-width: 0px 0px; /* 枠の幅 */
+}
+
+#main table.table4 td {
+border-width: 0px 0px; /* 枠の幅 */
+text-align: left;
+}
+
+/* main table.table5 メインのテーブル
+-----------------------------------------------------*/
+#main table.table5 {
+text-align: left; 
+}
+
+#main table.table5 th {
+width: 150px;
+}
+
+#main table.table5 td {
+
+}
+
+/* box ボックス
+-----------------------------------------------------*/
+
+#main .box1 {
+width:576px;
+height:auto;
+border:solid #999999 1px;
+margin: 0px 6px 12px 6px;
+padding: 5px 5px 5px 5px;
+}
+
+#main .box2 {
+float: left;
+width:276px;
+height:165px;
+border:solid #999999 1px;
+margin: 0px 6px 12px 6px;
+_margin: 0px 3px 12px 3px;
+padding: 5px 5px 5px 5px;
+}
+
+#main .box3 {
+float: left;
+width:176px;
+height:170px;
+border:solid #999999 1px;
+margin: 0px 6px 12px 6px;
+_margin: 0px 3px 12px 3px;
+padding: 5px 5px 5px 5px;
+}
+
+#main .box-img-left {
+float:left;
+display: inline;
+margin: 10px 5px 5px 5px;
+border:solid #999999 1px;
+}
+
+#main .box-img-left3 {
+margin: 10px 5px 5px 5px;
+border:solid #999999 1px;
+}
+
+#main .box-btn {
+float:right;
+display: inline;
+font-size:11px;
+font-weight:bold;
+color: #105EA0;
+background:#8CC7F9;
+border: #3380CC solid 1px;
+width:164px;
+text-align:center;
+padding: 0px 0px 0px 0px;
+margin: 5px 5px 5px 5px;
+_margin: 5px 5px 5px 5px;
+}
+
+#main .box-btn3 {
+font-size:11px;
+font-weight:bold;
+color: #105EA0;
+background:#8CC7F9;
+border: #3380CC solid 1px;
+width:164px;
+text-align:center;
+padding: 0px 0px 0px 0px;
+margin: 5px 5px 5px 5px;
+}
+
+#main .box-btn a, #main .box-btn a:link, #main .box-btn a:visited {
+color: #105EA0;
+text-decoration:none;
+display:block;
+padding: 2px 0px 0px 0px;
+}
+
+#main .box-btn a:hover {
+color: #105EA0;
+background:#D9E6F3;
+text-decoration: none;
+padding: 2px 0px 0px 0px;
+}
+
+
+#main .box-btn3 a, #main .box-btn3 a:link, #main .box-btn3 a:visited {
+color: #105EA0;
+text-decoration:none;
+display:block;
+padding: 2px 0px 0px 0px;
+}
+
+#main .box-btn3 a:hover {
+color: #105EA0;
+background:#D9E6F3;
+text-decoration: none;
+padding: 2px 0px 0px 0px;
+}
+
+#main .clear {
+clear:both;
+visibility:hidden;
+height: 0;
+padding: 0;
+margin: 0;
+}
+
+/* new 更新情報
+-----------------------------------------------------*/
+
+#main .new {
+height: 150px;
+overflow: auto;
+margin-right: auto;
+margin-left: auto;
+}
+
+#main .new li {
+border-bottom:#CCCCCC dotted 2px;
+margin: 5px 0px 5px 0px;
+padding: 5px 0px 10px 0px;
+}
+
+/* sub サブ
+-----------------------------------------------------*/
+
+#sub {
+float:left;
+font-size:12px;
+width:252px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+background-repeat: repeat-y;
+}
+
+#sub .category {
+margin: 10px 10px 10px 10px;
+padding: 0px 0px 0px 0px;
+border:#0081b2 solid 1px;
+background:#f5fcfd;
+position:relative; background:#fff; display:block;
+-moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+-webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+}
+
+#sub h3 {
+color:#FFFFFF;
+font-size:13px;
+text-align:center;
+font-weight:bold;
+margin: 0px 0px 0px 0px;
+padding: 5px 10px 5px 5px;
+}
+
+#sub .entry_body {
+margin: 0px 15px 0px 15px;
+padding: 0px 0px 0px 0px;
+}
+
+#sub p {
+margin: 15px 0px 15px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#sub blockquote {
+margin: 15px 0px 15px 0px;
+padding: 10px 10px 10px 10px;
+border:#999999 dotted 1px;
+background: #FFFFFF;
+}
+
+#sub .soto {
+margin: 0px 25px 0px 25px;
+}
+
+#sub ul {
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#sub li {
+line-height: 120%;
+list-style:none;
+_height:30px;
+background: url(../images/li2.gif) no-repeat 18px 1.2em;
+border-top: #0081b2 solid 1px;
+margin: 0px 0px 0px 0px;
+}
+
+#sub li a, #sub li a:link, #sub li a:visited {
+color:#333333;
+text-decoration:none;
+display:block;
+padding: 10px 10px 8px 25px;
+}
+
+#sub li a:hover {
+color: #ffffff;
+background:#00a5e6;
+text-decoration: none;
+padding: 9px 10px 7px 25px;
+border:solid 1px #FFFFFF;
+}
+
+#sub .btn {
+	background: #09C;
+	border: 1px solid #DDD;
+	color: #FFF;
+	text-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+	width: 200px;
+	padding: 10px 10px;
+}
+
+#sub .hover a:hover img{
+	opacity:0.8;
+	filter: alpha(opacity=70);
+}
+
+
+/* footer フッター
+-----------------------------------------------------*/
+
+#footer {
+text-align:center;
+font-size:10px;
+color: #FFFFFF;
+background: #0e3f6a;
+margin: 0px 0px 0px 0px;
+padding: 5px 0px 5px 0px;
+border-top: #3380CC solid 3px;
+}
+
+#footer p {
+margin: 5px 25px 5px 25px;
+padding: 0px 0px 0px 0px;
+}
+
+/* heading2 
+-----------------------------------------------------*/
+
+.heading2{
+    background: #fff;
+    color: #606060;
+    border-top:1px solid #b7b7b7;
+    border-right:1px solid #b7b7b7;
+    border-bottom:1px solid #b7b7b7;
+    border-left:4px solid #0081b2;
+    padding: 5px 0 5px 10px;
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+
+/* gradient 
+-----------------------------------------------------*/
+/*------------blue------------*/
+.accordion_head {
+	color: #d9eef7;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+/*------------------------*/
+border:solid 1px #FFFFFF;
+color:#FFFFFF;
+}
+
+/* signup
+-----------------------------------------------------*/
+fieldset, ul{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+ul{list-style: none;}
+
+ul.alert{
+	padding: 1px 1px;
+	background: ;
+	font-size: 1.0em;
+	margin: 0 0 0 0;
+}
+
+ul.alert.error{
+	background: ;
+	color: #cc0000;
+	border-bottom: ;
+}
+
+ul.alert.success{
+	background: ;
+	color: #2a7836;
+	border-bottom: ;
+}
+
+fieldset li{
+	margin: 0 0 15px 0;
+}
+
+input[type=text],
+input[type=password]{
+}
+
+label{
+	color: #333;
+	font-size: 1.0em;
+	line-height: 1.9em;
+}
+
+/* box
+-----------------------------------------------------*/
+td.tdtitle{
+text-align: center;
+color: #ffffff;
+background-color:#3eb150;
+margin:0px 0px 0px 0px ;
+}
+
+td.tdtitle2{
+text-align: center;
+color: #000000;
+background-color:#cccccc;
+margin:0px 0px 0px 0px ;
+}
+
+td.tdexplain{
+width:px;
+height:px;
+background-color:#ededed;
+}
+
+/* pageNav03
+-----------------------------------------------------*/
+#main ul.pageNav03 {
+	/zoom: 1;
+	overflow: hidden;
+	margin: 0 0 10px;
+	padding: 10px;
+	background: #eee;
+}
+
+#main ul.pageNav03 li {
+	float: left;
+	margin: 0 1px 1px 0;
+}
+
+#main ul.pageNav03 li span,
+#main ul.pageNav03 li a {
+	float: left;
+	padding: 5px 10px;
+	background: #fff;
+}
+
+#main ul.pageNav03 li a:hover {
+	background: #ffc;
+}
+
+* font size
+-------------------------------------------------------------
+
+	10px = 77%
+	11px = 85%
+	12px = 93%
+	
+	13px = 100% (default)
+	
+	14px = 108%
+	15px = 116%
+	16px = 123.1%
+	17px = 131%
+	18px = 138.5%
+	19px = 146.5%
+	20px = 153.9%
+	21px = 161.6%
+	22px = 167%
+	23px = 174%
+	24px = 182%
+	25px = 189%
+	26px = 197%
+
+------------------------------------------------------------- */
+
+
+/*
+Plugin Name: WP-Digg Style Paginator
+Plugin URI: http://www.mis-algoritmos.com/2007/09/09/wp-digg-style-pagination-plugin-v-10/
+Author: Victor De la Rocha
+Author URI: http://www.mis-algoritmos.com
+*/
+/*
+Plugin Name: WP-Digg Style Paginator
+Plugin URI: http://www.mis-algoritmos.com/2007/09/09/wp-digg-style-pagination-plugin-v-10/
+Author: Victor De la Rocha
+Author URI: http://www.mis-algoritmos.com
+*/
+/*CSS Yahoo new version style pagination*/
+	div.pagination {
+		padding: 3px;
+		margin: 3px;
+		text-align:center;
+		font-family:Tahoma,Helvetica,sans-serif;
+		font-size:.85em;
+	}
+	
+	div.pagination a {
+		border: 1px solid #ccdbe4;
+		margin-right:3px;
+		padding:2px 5px;
+
+		background-position:bottom;
+		text-decoration: none;
+
+		color: #0061de;		
+	}
+	div.pagination a:hover, div.pagination a:active {
+		border: 1px solid #2b55af;
+		background-image:none;
+		background-color:#3666d4;
+		color: #fff;
+	}
+	div.pagination span.current {
+		margin-right:3px;
+		padding:2px 5px;
+		
+		font-weight: bold;
+		color: #000;
+	}
+	div.pagination span.disabled {
+		display:none;
+	}
+	div.pagination a.next{
+		border:2px solid #ccdbe4;
+		margin:0 0 0 10px;
+	}
+	div.pagination a.next:hover{
+		border:2px solid #2b55af;
+	}
+	div.pagination a.prev{
+		border:2px solid #ccdbe4;
+		margin:0 10px 0 0;
+	}
+	div.pagination a.prev:hover{
+		border:2px solid #2b55af;
+	}
+	
+/* information
+-----------------------------------------------------*/
+#information ul {
+   margin:0px 15px 0px 15px;
+   padding:0;
+   list-style:none;
+   overflow: auto; /* 表示方法指定 */
+   height: 145px; /* 高さ指定 */
+}
+
+#information li {
+   padding:8px 0 8px 7em;
+   text-indent: -7em;
+   border-bottom:1px solid #ddd;
+}
+
+#information li span {
+   display:inline-block;
+   width:7em;
+   text-indent:0;
+}
+
+#information li a {
+   text-decoration:none;
+   color:#000;
+}
+
+#information li a:hover {
+   text-decoration:underline;
+   color:#AB0404;
+
+}
+
+/* login_form_1
+-----------------------------------------------------*/
+
+    div#login1 a {
+        color:#0033cc;
+    }
+    div#login1 a:hover{
+        background-color:transparent;
+    }
+    div#login1 h1,
+    div#login1 h2,
+    div#login1 p,
+    div#login1 form {
+        margin:0; padding:0;
+        border:0;
+    }
+    div#login1 h2{
+        margin:0 0 20px 0;
+        color:#666666;
+        font-size:16px;
+    }
+    div#login1 div.box_login {
+        margin-bottom:20px;    padding:10px;
+        border:solid 1px #c6cfe1;
+        background:#e4f5fb;
+        color:#333333;
+    }
+        div#login1 div.box_login h1 {
+            color:#000000;
+            padding:0 0 4px 0;
+            font-size:14px;
+        }
+        div#login1 div.box_login p {
+            padding-bottom:14px;
+        }
+        div#login1 div.box_login input .input-text {
+            width:180px;
+            border:1px solid #3b6e22;
+            color:#666666;
+        }
+        div#login1 div.box_login label {
+            display:block;
+            margin-bottom:10px;
+            color:#555555;
+        }
+            div#login1 div.box_login label span {
+                display:block;
+                float:left;
+                width:10em;
+                padding-right:6px;
+                font-weight:bold;
+                text-align:right;
+            }
+        div#login1 .spacer {
+            margin-left:135px; margin-bottom:10px;
+            font-size:11px;
+            color:#555555;
+        }
+	
+/* login_form_2
+-----------------------------------------------------*/
+
+    div#login2 a {
+        color:#0033cc;
+    }
+    div#login2 a:hover{
+        background-color:transparent;
+    }
+    div#login2 h1,
+    div#login2 h2,
+    div#login2 p,
+    div#login2 form {
+        margin:0; padding:0;
+        border:0;
+    }
+    div#login2 h2{
+        margin:0 0 20px 0;
+        color:#666666;
+        font-size:16px;
+    }
+    div#login2 div.box_login2 {
+        margin-bottom:20px;    padding:10px;
+        border:solid 1px #c6cfe1;
+        background:#e4f5fb;
+        color:#333333;
+    }
+        div#login2 div.box_login2 h1 {
+            color:#000000;
+            padding:0 0 4px 0;
+            font-size:14px;
+        }
+        div#login2 div.box_login2 p {
+            padding-bottom:14px;
+        }
+        div#login2 div.box_login2 input .input-text {
+            width:400px;
+            border:1px solid #3b6e22;
+            color:#666666;
+        }
+        div#login2 div.box_login2 label {
+            display:block;
+            margin-bottom:10px;
+            color:#555555;
+        }
+            div#login2 div.box_login2 label span {
+                display:block;
+                float:left;
+                width:12em;
+                padding-right:6px;
+                font-weight:bold;
+                text-align:right;
+            }
+        div#login2 .spacer {
+            margin-left:160px; margin-bottom:10px;
+            font-size:11px;
+            color:#555555;
+        }
+	
+	
+hr {
+   border:solid #B7B7B7;
+   border-width:1px 0 0 0;
+   height:1px;/* for IE6 */
+   clear:both;/* for IE6 */
+} 
+
+/* Simple scalable breadcrumb by Veerle Pieters
+------------------------------------------------------------------*/		
+#crumbs {
+        width:626px;
+	height:1.4em;
+	border:1px solid #dedede;
+	}
+#crumbs li {
+	float:left;
+	line-height:2.3em;
+	color:#777;
+	padding-left:.75em;
+	}		
+#crumbs li a {
+	background:url(../images/crumbs.gif) no-repeat right center;
+	display:block;
+	padding:0 15px 0 0;
+	}							
+#crumbs li a:link,
+#crumbs li a:visited {
+	color:#777;
+	text-decoration:none;
+	}	
+#crumbs li a:hover,
+#crumbs li a:focus {
+	color:#AB0404;
+	}

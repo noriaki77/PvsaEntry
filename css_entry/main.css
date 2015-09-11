@@ -1,0 +1,376 @@
+/* ----------------------------------------------------------------------------------------------------------
+
+    This website template was downloaded from http://www.nuviotemplates.com - visit us for more templates
+    
+    Structure:
+    display; position; float; z-index; overflow; width; height; margin; padding; border; background; align; font;
+
+    Content:
+    
+        1) HTML tags, reset
+        2) Universal styles (display, float, margin, text-align...)
+        3) Layout
+        4) Page: Home
+        Z) Others
+        
+---------------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------------------
+1) HTML tags, reset
+---------------------------------------------------------------------------------------------------------- */
+
+* {margin:0; padding:0;}
+body, div, span, p, a, img, ul, ol, li, caption, table, thead, tbody, tfoot, tr, th, td, form, fieldset, legend, label, dl, dt, dd, blockquote, applet, object, h1, h2, h3, h4, h5 {border:0;}
+body {padding:0px 0px 0px; font:0.8em/1.5 "arial", serif; text-align:center;
+font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","Meiryo","Arial","Verdana","ＭＳ Ｐゴシック",sans-serif;
+/* スクロールバーを隠す。（header_topを左右いっぱいに表示する為に追加 */
+overflow-x: hidden;
+}
+
+a {text-decoration:none;}
+
+h1, h2, h3, h4, h5, h6 {margin:10px 0px 10px 0px;}
+h1 {font-size:260%; font-weight:normal; letter-spacing:-1px;}
+h2 {font-size:160%; font-weight:normal;}
+h3 {font-size:; font-weight:;}
+h4, h5 {font-size:100%;color:#FFFFFF;}
+
+p, table, ul, ol, dl, fieldset {margin:15px 0;}
+
+table {border-collapse:collapse; border-spacing:0; font-size:100%;}
+th {text-align:center; font-weight:bold;}
+th, td {padding:3px 7px;}
+
+ul, ol {margin-left:30px;}
+ul ul, ol ol {margin:0; margin-left:20px;}
+ol {list-style-type:decimal;}
+li {display:list-item;}
+
+dt {font-weight:bold;}
+dd {margin-left:30px;}
+
+fieldset {position:relative; padding:10px;}
+legend {position:absolute; top:-1em; margin:0; padding:5px 10px; font-size:100%; font-weight:bold;}
+
+/* ----------------------------------------------------------------------------------------------------------
+2) Universal styles (display, float, margin, text-align...)
+---------------------------------------------------------------------------------------------------------- */
+
+.box {min-height:1px;}
+.box:after {display:block; visibility:hidden; clear:both; line-height:0; font-size:0; content:".";}
+    
+/* ----------------------------------------------------------------------------------------------------------
+3) LAYOUT
+---------------------------------------------------------------------------------------------------------- */
+
+#main {width:960px; margin:0 auto; text-align:left;}
+    
+	#header {position:relative; padding-bottom:15px;}
+
+        #logo {margin:0; font-weight:normal;}
+        
+        #slogan {margin:0;}
+        
+
+
+    #nav {clear:both; padding:0px; border-left:0 !important; border-right:0 !important;background:#e4e7e9;}
+    
+        #nav ul {margin:0; padding:0; list-style:none; font:100%/1.4 "arial",sans-serif;}
+        #nav ul li {display:inline; margin:0; padding:0;}
+        #nav ul li a {display:block; float:left; padding:0px; border:0; background:url("../design/dot-03.gif") 100% 0 repeat-y;}
+        #nav ul li#nav-active a {border:0; font-weight:bold;}
+	#nav ul li a:hover img{
+
+    	}   
+	
+    #nav_top {clear:both; padding:0px 0 0px; border-left:0 !important; border-right:0 !important;}
+    
+        #nav_top ul {margin:0; padding:0; list-style:none; font:100%/1.4 "arial",sans-serif;}
+        #nav_top ul li {display:inline; margin:0; padding:0;}
+        #nav_top ul li a {display:block; float:right; padding:0px 15px; border:0; background:url() 100% 0 repeat-y;background:#0096FF;color:#fff;height: 40px;line-height: 40px;}
+	#nav_top ul li a:hover { color:#fff; text-decoration:none;background:#ff6900; }
+	#nav_top ul li span {display:block; float:right; padding:0px 15px; border:0; background:url() 100% 0 repeat-y;height: 40px;line-height: 40px;color:;}
+        #nav_top ul li#nav_top-active a {border:0; font-weight:bold;}
+
+	#content {
+	position:relative;
+	padding:0px 0px 0px 0px;
+	overflow:hidden;
+	background:;
+	}
+
+	#footer {clear:both; font-size:85%; }
+	
+    #nav_bottom {clear:both; padding:0px 0 0px; border-left:0 !important; border-right:0 !important;}
+    
+        #nav_bottom ul {margin:0; padding:0; list-style:none; font:100%/1.4 "arial",sans-serif;}
+        #nav_bottom ul li {display:inline; margin:0; padding:0;}
+        #nav_bottom ul li a {display:block; float:right; padding:0px 15px; border:0; background:url() 100% 0 repeat-y;background:#0096FF;color:#fff;height: 80px;line-height: 80px;}
+	#nav_bottom ul li a:hover { color:#fff; text-decoration:none;background:#bad6e3; }
+	#nav_bottom ul li span {display:block; float:right; padding:0px 15px; border:0; background:url() 100% 0 repeat-y;height: 80px;line-height: 80px;color:;}
+        #nav_bottom ul li#nav_bottom-active a {border:0; font-weight:bold;}
+	
+section {
+   width: 960px;
+   margin: 0 auto;
+}
+
+#header_top {
+   position: relative;
+   background: #e4e7e9;
+   border-bottom:3px solid #0096FF;
+   height:40px;
+}
+#header_top:before, #header_top:after {
+   content: "";
+   position: absolute;
+   background: #e4e7e9;  /* Match the background */
+   top: 0;
+   bottom: 0;
+   width: 9999px;   /* some huge width */
+   height:40px;
+   border-bottom:3px solid #0096FF;
+}
+#header_top:before {
+   right: 100%;
+}
+#header_top:after {
+   left: 100%;
+}
+
+
+#footer_bottom {
+   position: relative;
+   background: #e4e7e9;
+   border-top:0px solid #0096FF;
+   height:83px;
+}
+#footer_bottom:before, #footer_bottom:after {
+   content: "";
+   position: absolute;
+   background: #e4e7e9;  /* Match the background */
+   top: 0;
+   bottom: 0;
+   width: 9999px;   /* some huge width */
+   height:80px;
+   border-top:3px solid #0096FF;
+}
+#footer_bottom:before {
+   right: 100%;
+}
+#footer_bottom:after {
+   left: 100%;
+}
+/*  
+
+/* ----------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------- */
+
+#main_left {
+width:679px;
+float:left;
+margin: 0px; 
+background:#ffffff;
+border-right:0px solid #ccc; 
+} 
+#side {
+width:279px;
+float:left;
+margin: 0px;
+border-left:0px solid #ccc; 
+background:#ffffff;
+}
+
+.selector1{  
+    border-bottom:1px solid #ccc;  
+    margin:.0em .0em;
+    padding:.5em .5em;
+    background:#0096FF;  
+} 
+
+/* side サブ
+-----------------------------------------------------*/
+
+#side .category {
+margin: 15px;
+padding: 0px 0px 0px 0px;
+border:#8fa4b2 solid 0px;
+background:#ffffff;
+}
+
+#side h3 {
+color:#0096FF;
+background:#ffffff;
+font-size:14px;
+text-align:left;
+font-weight:bold;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#side .h3kazari {
+border-bottom:1px dotted #ccc; 
+padding: 0px 0px 0px 10px;
+}
+
+#side .entry_body {
+margin: 0px 15px 0px 15px;
+padding: 0px 0px 0px 0px;
+}
+
+#side p {
+margin: 15px 0px 15px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#side blockquote {
+margin: 15px 0px 15px 0px;
+padding: 10px 10px 10px 10px;
+border:#999999 dotted 1px;
+background: #FFFFFF;
+}
+
+#side .soto {
+margin: 0px 25px 0px 25px;
+}
+
+#side ul {
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#side li {
+line-height: 100%;
+list-style:none;
+_height:30px;
+background: url(images/li.gif) no-repeat 18px 1.2em;
+border-top: #4784b7 solid 0px;
+margin: 0px 0px 0px 0px;
+}
+
+#side li a, #side li a:link, #side li a:visited {
+color:#333333;
+text-decoration:none;
+display:block;
+padding: 5px 10px 5px 10px;
+border-bottom:0px solid #ffffff;
+
+}
+
+#side li a:hover {
+color: #ffffff;
+background:#0096FF;
+text-decoration: none;
+padding: 5px 10px 5px 10px;
+border-bottom:0px solid #ffffff;
+}
+
+/* login_form_1
+-----------------------------------------------------*/
+    div#login1 {
+	padding: 20px;
+    }
+   
+    div#login1 a:hover{
+        background-color:transparent;
+    }
+    div#login1 h1,
+    div#login1 h2,
+    div#login1 p,
+    div#login1 form {
+        margin:0; padding:0;
+        border:0;
+    }
+    div#login1 h2{
+        margin:0 0 20px 0;
+        color:#666666;
+        font-size:16px;
+    }
+    
+    .h3kazari {
+	border-bottom:0px dotted #ccc; 
+	color:#0096FF;
+	background:#ffffff;
+	font-size:;
+	text-align:left;
+	font-weight:bold;
+	margin:0px 0px 15px;
+	padding: 0px 0px 0px 0px;
+    }
+    div#login1 .err {
+	color:#cc0000;
+	background:#ffffff;
+	text-align:left;
+	font-weight:bold;
+	margin:20px;
+	padding: 0px 0px 0px 0px;
+    }
+
+    div#login1 div.box_login {
+        margin:20px;
+	padding:20px 20px 0px;
+        border:solid 0px #c6cfe1;
+        background:#e4e7e9;
+        color:#333333;
+    }
+    div#login1 div.box_login p {
+	padding-bottom:20px;
+    }
+    div#login1 div.box_login input {
+	width:200px;
+	border:0px solid #8fa4b2;
+	color:#000000;
+	height: 24px;
+	line-height: 24px;
+	font-size: 100%;
+	margin:5px 0px;
+    }
+    #btn_box input#btn_submit {
+	width:100px;
+	background:#0096FF;
+	color:#fff;
+	height: 2.4em;
+	font-size:15px;
+    }
+    #btn_box input#btn_submit:hover { 
+    	color:#fff;
+	background:#ff6900;
+    }
+    
+    div#login1 div.box_login label {
+	display:block;
+	text-align:left;
+	color:;
+    }
+    div#login1 div.box_login span {
+	display:block;
+	font-weight:bold;
+	text-align:left;
+	font-size:14px;
+	}
+    div#login1 .spacer {
+	margin-left:100px;
+	margin-bottom:px;
+	font-size:;
+	color:;
+    }
+    
+/* login_form_2
+-----------------------------------------------------*/
+    div#login2 {
+	padding: 20px;
+    }
+
+    div#login2 p {
+	padding-bottom:;
+    }
+
+    div#login2 .spacer {
+	margin:30px 0px 50px 140px;
+    }
+    div#login2 a:hover img{
+	    /*opacity:0.7;
+	    filter: alpha(opacity=70);*/
+    }    
+

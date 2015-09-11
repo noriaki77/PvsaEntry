@@ -1,0 +1,16 @@
+お問い合わせフォームよりメールが送信されました。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+受付番号 = {$no}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{loop:$params}
+{$params[].key} = {$params[].value}
+{/loop:$params}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+IP : {$_SERVER.REMOTE_ADDR}
+HOST : {$_SERVER.REMOTE_HOST}
+USER_AGENT : {$_SERVER.HTTP_USER_AGENT}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

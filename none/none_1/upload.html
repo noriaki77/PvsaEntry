@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>sample</title>
+</head>
+
+    <script type="text/javascript">
+      function $(id) { return document.getElementById(id) }
+        
+      /**
+       *  ファイルが選択されているか簡単なチェックをする
+       */
+      function checkFilePath() {
+        var filePath1 = $("userfile1").value;
+        var filePath2 = $("userfile2").value;
+        var filePath3 = $("userfile3").value;
+        if(filePath1 == "" && filePath2 == "" && filePath3 == "") {
+          alert("ファイルが選択されていません。");
+          return false;
+        }else {
+          return true;
+        }
+      }
+    </script>
+
+<body>
+<form action="index_1.php" method="post" enctype="multipart/form-data" onsubmit="return checkFilePath()">
+  請求書用CSVデータファイルを選択してください　※ファイル名に「(　)」（カッコ）、「　」（スペース）は使用できません<br /><br />
+  <input type="file" id="userfile1" name="upfile[]" size="30" /><br /><br />
+  <input type="file" id="userfile2" name="upfile[]" size="30" /><br /><br />
+  <input type="file" id="userfile3" name="upfile[]" size="30" /><br /><br />
+  <br />
+  <input type="submit" name="btnExec" value="アップロード" />
+</form>
+<br />
+<br />
+テストデータをアップロード済みです。<a href="index_1.php">ここをクリック</a>して次へ進んでください。
+</body>
+</html>

@@ -1,0 +1,25 @@
+table.sample{
+    width: 320px;
+    border-top:1px solid #ffffff;
+    border-left:1px solid #ffffff;
+    border-collapse:collapse;
+    border-spacing:0;
+    background-color:#ffffff;
+    empty-cells:show;
+}
+.sample th{
+    border-right:1px solid #cccccc;
+    border-bottom:1px solid #cccccc;
+    font-weight:normal;
+    background-color:#ccffff;
+    background-image:url(../img/table-back.gif);
+    background-position:left top;
+    padding:0.3em 1em;
+    text-align:left;
+}
+.sample td{
+    border-right:1px solid #ffffff;
+    border-bottom:1px solid #ffffff;
+    padding:0.3em 1em;
+    text-align:left;
+}

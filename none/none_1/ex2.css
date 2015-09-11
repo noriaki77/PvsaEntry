@@ -1,0 +1,26 @@
+table.sample{
+    border-top:1px solid #cccccc;
+    border-left:1px solid #cccccc;
+    border-collapse:collapse;
+    border-spacing:0;
+    background-color:#ffffff;
+    empty-cells:show;
+   
+}
+.sample th{
+    border-right:1px solid #cccccc;
+    border-bottom:1px solid #cccccc;
+    font-weight:normal;
+    background-color:#ccffff;
+    background-image:url(../img/table-back.gif);
+    background-position:left top;
+    padding:0.3em 1em;
+    text-align:center;
+}
+.sample td{
+    border-right:1px solid #cccccc;
+    border-bottom:1px solid #cccccc;
+    padding:0.3em 1em;
+    height: 3em
+}
+
